@@ -2630,7 +2630,11 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header h2, #header h3, #header h4, #header h5, #header h6 {
+    #header h2 {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+		#header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
 
@@ -3018,6 +3022,10 @@ input, select, textarea {
 				#header > .inner {
 					margin-bottom: 0;
 				}
+
+        #header h2 {
+          font-size: 1em;
+        }
 
 
 		/* Footer */
